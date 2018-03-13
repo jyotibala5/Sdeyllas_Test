@@ -12,8 +12,10 @@ namespace GitHubExplorer.Integration.Tests.Step_Bindings
 {[Binding]
     class Search_Steps
     {
-        IWebDriver driver;
-        private SearchPagePOM _SdesyllasSteps;
+        private IWebDriver driver;
+
+        //IWebDriver driver;
+        //private SearchPagePOM _SdesyllasSteps;
 
         [BeforeScenario]
 
